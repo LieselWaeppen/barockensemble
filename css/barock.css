@@ -2,14 +2,14 @@
 
 	body {
 		font-family: 'Asul', serif;
-		background-image: url("../images/beige_tile.png");
+		background-image: url("../img/beige_tile.png");
 	  }
 	#map {height: 500px; width: 100%}
 	
 	#header {
 	    height: 100vh;
 		min-height: 40em;
-		background-image: url('../images/Bettera.jpg');
+		background-image: url('../img/Bettera.jpg');
 		background-size: cover;
 		background-position: center center;
 		color: #fff;
