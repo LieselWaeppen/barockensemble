@@ -26,5 +26,5 @@
 		border-radius: 4px;
 		opacity: 0.7;
 	}
-	#header a {text-decoration: none; color: #fff;}
-	#header .title {font-size: 3em;}
+	#header a {color: #fff;}
+	#header .title {text-decoration: none; font-size: 3em;}
