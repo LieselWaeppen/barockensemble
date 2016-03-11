@@ -190,30 +190,6 @@ a:focus {
   text-decoration: underline;
   outline: none;
 }
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a {
-  opacity: 0;
-}
-h1:hover a,
-h2:hover a,
-h3:hover a,
-h4:hover a,
-h5:hover a,
-h1:focus a,
-h2:focus a,
-h3:focus a,
-h4:focus a,
-h5:focus a {
-  -webkit-transition: all 0.2s linear;
-  -moz-transition: all 0.2s linear;
-  -ms-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
-  opacity: 1;
-}
 ol,
 ul {
   padding: 0 0 0 1.5em;
