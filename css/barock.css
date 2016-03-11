@@ -4,7 +4,7 @@
 		font-family: 'Asul', serif;
 		background-image: url("../img/beige_tile.png");
 	  }
-	#map {height: 500px; width: 100%}
+	#map {height: 300px; width: 100%}
 	
 	#header {
 	    height: 100vh;
@@ -28,3 +28,7 @@
 	}
 	#header a {color: #fff;}
 	#header .title {text-decoration: none; font-size: 3em;}
+	@media (min-width:600px) { 
+		/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+		#map {height: 600px; width: 100%}
+	}
