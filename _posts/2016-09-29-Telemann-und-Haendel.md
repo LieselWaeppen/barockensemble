@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Telemann und Händel
-date: "29. September"
+date: 2016-09-29
+prettyDate: "29. September"
 datetype: single
 place: "Ev. Kirche Söllingen (Pfinztal) "
 time: " 19 Uhr"
