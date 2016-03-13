@@ -11,6 +11,7 @@ author: Admin
 ---
 
 
+
 Aufführungen:
 - 23.04.16 (Sa.), 19.00 Uhr, [Ev. Kirche Söllingen (Pfinztal)](http://maps.google.com/maps?daddr=48.9855557,8.5401293)
 - 17.04.16 (So.), 19.30 Uhr, [Saal der Klinik Öschelbronn](http://maps.google.com/maps?daddr=48.903165,8.824372)
@@ -24,6 +25,6 @@ Programm:
 
 Ausführende:
 - Martina Lorbeer/Sopran, Evelyne Nicola/Alt, Wolfgang Müller/Tenor, Felix Palmen/Bass
-- Kammerchor Öschelbronn<
+- Kammerchor Öschelbronn
 - Karlsruher Barockensemble
 - Leitung: Bastian Hellinger & Sebastian Weiss
