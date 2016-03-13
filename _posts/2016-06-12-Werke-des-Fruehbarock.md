@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Zelenka und Händel
-date: "17., 23. und 24. April"
+title: Werke des Frühbarock
+date: "12. Juni"
 datetype: single
 place: "Ev. Kirche Söllingen (Pfinztal) "
 time: " 19 Uhr"
