@@ -1,6 +1,9 @@
-name: Pfinztaler Barockkonzerte
+title: Pfinztaler Barockkonzerte
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+place: Ev. Kirche Söllingen (Pfinztal)
+latitude: 48.9855557
+longitude: 8.5401293
 prose:
   rooturl: '_posts'
   siteurl: 'http://lieselwaeppen.github.io/barockensemble/'
