@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Werke des Frühbarock
-date: "12. Juni"
+date: 2016-06-12
+prettyDate: "12. Juni"
 datetype: single
 place: "Ev. Kirche Söllingen (Pfinztal) "
 time: " 19 Uhr"
