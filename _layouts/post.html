@@ -1,1 +1,8 @@
-
+---
+layout: default
+---
+<h5>{{ page.title }}<h5>
+{% if  page.datetype == 'single' %}
+	<p>{{ page.date }}, <a href="http://maps.google.com/maps?daddr={{ page.latlng }}" target="_blank">{{ page.place }}</a> Beginn: {{ page.time }}</p> 
+{% endif %}  
+{{ content }}
