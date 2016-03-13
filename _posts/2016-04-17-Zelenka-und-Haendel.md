@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Zelenka und Händel
-date: "17., 23. und 24. April"
+date: 2016-04-17
+prettyDate: "17., 23. und 24. April"
 datetype: multiple
 place: ""
 time: ""
