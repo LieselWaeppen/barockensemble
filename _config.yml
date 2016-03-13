@@ -2,6 +2,8 @@ title: Pfinztaler Barockkonzerte
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 place: Ev. Kirche Söllingen (Pfinztal)
+street: Kirchhofstraße 28
+zipTown: 76327 Pfinztal
 latitude: 48.9855557
 longitude: 8.5401293
 prose:
