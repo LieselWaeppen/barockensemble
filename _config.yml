@@ -1,5 +1,6 @@
 title: Pfinztaler Barockkonzerte
 markdown: kramdown
+baseurl: '/barockensemble'
 permalink: /blog/:year/:month/:day/:title
 place: Ev. Kirche Söllingen (Pfinztal)
 street: Kirchhofstraße 28
