@@ -1,1 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='//fonts.googleapis.com/css?family=Asul' rel='stylesheet' type='text/css'>
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <link rel="stylesheet" href="//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+  <script src="//cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+  <link rel="stylesheet" href="css/basic.css">
+  <link rel="stylesheet" href="css/reflex.css">
+  <link rel="stylesheet" href="css/barock.css">
+</head>
+<body>
+<!--
+Mehr auf http://leejordan.github.io/reflex/docs/demo.html
+-->
+<div id="header">
+	<div><a class="title" href="#start">{{ page.title }}</a></div>
+	<div>
+	  {% assign post = site.posts.first %}
+	  {% include post_detail.html %}
+	  <a href="#address">{{ page.place }}/a></div>
+</div>
+
+
+<section class="content-grid" id="start">
+	<section class="grid">
+    {{ content }}
+	</section>
+</section>
+
+<script>
+  var latitude = {{ page.latitude }};
+  var longitude = {{ page.longitude }};
+  var routeLink = "//maps.google.com/maps?daddr=" + latitude + "," + longitude;
+	var map = L.map('map').setView([latitude, longitude], 18);
+
+	L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+	}).addTo(map);
+
+	L.marker([latitude, longitude]).addTo(map)
+		.bindPopup('<a href="' + routeLink + '" target="_blank">{{page.street}}<br/>{{page.zipTown}}</a>')
+		.openPopup();
+</script>
+</body>
+</html>
