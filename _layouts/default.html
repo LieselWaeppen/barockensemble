@@ -42,13 +42,28 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
     					{% include about.md %}
     				</div>
 			</li>
+			
+			<li class="grid__col-12" id="address">
+				<div class="grid__cell grid__cell--padding-md example-col-flat-1">
+					<a href="http://maps.google.com/maps?daddr={{ site.latitude }},{{ site.longitude }}" target="_blank"><h2>{{ site.place }}</h2></a>
+					<div id="map"></div>
+					<p class="showMobile top"><a href="#">nach oben</a></p>
+			</li>
+			<li class="grid__col-12" id="kontakt">
+				<div class="grid__cell grid__cell--padding-md example-col-flat-1">
+					<h2>Kontakt</h2>
+					<p>Michael Fiedler, Pfinztal (Wöschbach) <a href="tel:+4907240926096">Tel: 07240-926096</a></p>
+					<p>Rainer David, Pfinztal (Söllingen)</p>
+					<p class="showMobile top"><a href="#">nach oben</a></p>
+				</div>
+			</li>
 		</ul>
 	</section>
 </section>
 
 <script>
-  var latitude = {{ page.latitude }};
-  var longitude = {{ page.longitude }};
+  var latitude = {{ site.latitude }};
+  var longitude = {{ site.longitude }};
   var routeLink = "//maps.google.com/maps?daddr=" + latitude + "," + longitude;
 	var map = L.map('map').setView([latitude, longitude], 18);
 
@@ -57,7 +72,7 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
 	}).addTo(map);
 
 	L.marker([latitude, longitude]).addTo(map)
-		.bindPopup('<a href="' + routeLink + '" target="_blank">{{page.street}}<br/>{{page.zipTown}}</a>')
+		.bindPopup('<a href="' + routeLink + '" target="_blank">{{site.street}}<br/>{{site.zipTown}}</a>')
 		.openPopup();
 </script>
 </body>
