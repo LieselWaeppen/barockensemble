@@ -3,6 +3,7 @@ markdown: kramdown
 baseurl: '/barockensemble'
 permalink: /barockensemble/blog/:year/:month/:day/:title
 place: 'Ev. Kirche Söllingen (Pfinztal)'
+events: 'Zelenka und Händel: 17., 23. und 24. April'
 street: 'Kirchhofstraße 28'
 zipTown: '76327 Pfinztal'
 latitude: 48.9855557
