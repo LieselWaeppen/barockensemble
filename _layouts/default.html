@@ -61,9 +61,8 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
 			</li>
 			<li class="grid__col-12" id="kontakt">
 				<div class="grid__cell grid__cell--padding-md example-col-flat-1">
-					<h2>Kontakt</h2>
-					<p>Michael Fiedler, Pfinztal (Wöschbach) <a href="tel:+4907240926096">Tel: 07240-926096</a></p>
-					<p>Rainer David, Pfinztal (Söllingen)</p>
+					{% capture imprint %}{% include imprint.md %}{% endcapture %}
+					{{ imprint | markdownify }}
 					<p class="showMobile top"><a href="#">nach oben</a></p>
 				</div>
 			</li>
