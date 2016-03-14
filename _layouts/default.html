@@ -42,9 +42,11 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
     					{% capture about %}{% include about.md %}{% endcapture %}
 					{{ about | markdownify }}
 					
-					{% for post in site.posts %}
-					  {{ post.title }}
-					{% endfor %}
+					
+  <div markdown="1">
+I am *Markdown text*. Be sure not to indent me, else
+I'll be interpreted as a code block.
+  </div>
     				</div>
 			</li>
 			
