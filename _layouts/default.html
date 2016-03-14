@@ -41,6 +41,10 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
 				<div class="grid__cell grid__cell--padding-md example-col-flat-1">
     					{% capture about %}{% include about.md %}{% endcapture %}
 					{{ about | markdownify }}
+					
+					{% for post in site.posts %}
+					  {{ post.title }}
+					{% endfor %}
     				</div>
 			</li>
 			
