@@ -31,6 +31,7 @@
 	#header .title {text-decoration: none; font-size: 3em;}
 	@media (min-width:600px) { 
 		/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+		#header {background-image: url('../img/Bettera_small.jpg');}
 		#map {height: 600px; width: 100%}
 		.showMobile {display: none;}
 	}
