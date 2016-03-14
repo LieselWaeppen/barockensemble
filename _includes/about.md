@@ -1,6 +1,6 @@
 ## Pfinztaler Barockkonzerte
 
-Die Pfinztaler Barockkonzerte sind eine Reihe von Konzerten die vorzugsweise in der [Michaelskirche](http://www.ekiba.de/html/aktuell/aktuell_u.html?&cataktuell=&m=6677&artikel=5239) in Söllingen stattfinden.
+Die Pfinztaler Barockkonzerte sind eine Reihe von Konzerten die vorzugsweise in der [Michaelskirche](http://www.ekiba.de/html/aktuell/aktuell_u.html?&cataktuell=&m=6677&artikel=5239){:target="_blank"} in Söllingen stattfinden.
 
 Die Michaelskirche vereint eine vorzügliche Akustik mit dem liebevoll sanierten Erscheinungsbild eines überwiegend spätgotischen Bauwerks, Resten originaler Fresken und einer Bausubstanz, die bis ins 13. Jahrhundert zurückreicht.
 
