@@ -31,7 +31,8 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
 <div id="header">
 	<div><a class="title" href="#start">{{ site.title }}</a></div>
 	<div>
-	 <a href="#address">{{ site.place }}</a></div>
+	<a href="#address">{{ site.place }}</a><br/>
+	<a href="#events">{{ site.events }}</a></div>
 </div>
 
 <section class="content-grid">
@@ -41,6 +42,14 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
 				<div class="grid__cell grid__cell--padding-md example-col-flat-1">
     					{% capture about %}{% include about.md %}{% endcapture %}
 					{{ about | markdownify }}
+					<p class="showMobile top"><a href="#">nach oben</a></p>
+    				</div>
+			</li>
+			<li class="grid__col-12" id="events">
+				<div class="grid__cell grid__cell--padding-md example-col-flat-1">
+    					{% capture events %}{% include events.md %}{% endcapture %}
+					{{ events | markdownify }}
+					<p class="showMobile top"><a href="#">nach oben</a></p>
     				</div>
 			</li>
 			
