@@ -31,12 +31,10 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
 <div id="header">
 	<div><a class="title" href="#start">{{ page.title }}</a></div>
 	<div>
-	  {% assign post = site.posts.first %}
-	  {% include post_detail.html %}
-	  <a href="#address">{{ page.place }}</a></div>
+	 <a href="#address">{{ page.place }}</a></div>
 </div>
 
-
+{% include about.md %}
 <section class="content-grid" id="start">
 	<section class="grid">
     		{{ content }}
