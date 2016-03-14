@@ -1,19 +1,3 @@
----
-layout: post
-title: Telemann und Händel
-date: 2016-09-29
-prettyDate: "29. September"
-datetype: single
-place: "Ev. Kirche Söllingen (Pfinztal) "
-time: " 19 Uhr"
-published: true
-subtitle: ""
-author: Admin
-street: Kirchhofstraße 28
-zipTown: 76327 Pfinztal
-latitude: 48.9855557
-longitude: 8.5401293
----
 
 Programm:
 Georg Friedrich Händel aus: Neun deutsche Arien
