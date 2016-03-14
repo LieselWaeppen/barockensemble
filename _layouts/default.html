@@ -4,7 +4,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>{{ page.title }}</title>
+  <title>{{ site.title }}</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -34,9 +34,15 @@ Mehr auf http://leejordan.github.io/reflex/docs/demo.html
 	 <a href="#address">{{ site.place }}</a></div>
 </div>
 
-<section class="content-grid" id="start">
+<section class="content-grid">
 	<section class="grid">
-    		{% include about.md %}
+		<ul class="grid">
+			<li class="grid__col-12" id="start">
+				<div class="grid__cell grid__cell--padding-md example-col-flat-1">
+    					{% include about.md %}
+    				</div>
+			</li>
+		</ul>
 	</section>
 </section>
 
